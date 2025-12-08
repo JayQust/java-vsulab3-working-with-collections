@@ -44,7 +44,7 @@ class SimpleTesterTest {
     @Test
     void testInsertMiddle_ShouldMaintainCorrectSizeAndReturnNonNegativeTime() {
         List<Integer> arrayList = new ArrayList<>();
-        int halfCount = TEST_COUNT / 2;
+        //int halfCount = TEST_COUNT / 2;
         
         // Тест выполняет вставку половину раз, после предварительного заполнения половины
         long time = tester.testInsertMiddle(arrayList, TEST_COUNT);
